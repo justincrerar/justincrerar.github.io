@@ -3,52 +3,83 @@
 <html>
 <head>
     <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Scripts/script.js"></script>
 </head>
-<body class="center">
+<body class="center" style="padding-top:6em">
     <header class="topbar">
-        <div style="padding-left:2em">
+        <div style="padding-left:2em; font-size:18px">
             Justin Crerar B.S., Computer Engineering
         </div>
     </header>
-    <h1 class="center-text">Justin Crerar B.S. Computer Engineering</h1> 
-    <div class="center-text">
-        <h2 class="flip"> In Development... </h2>
-        <div class="panel">
-            <p>
-                Website is in developent, more to come! Click a panel to learn more.
-            </p>
+    <img id="headshot" class="img-rounded" src="Content/Images/JustinPortrait2.png"  />
+    <p style="text-align:center; padding-top:1em; font-size:20px;">
+        <b>Born: </b>September 20th, 1991<br />
+        <b>Hometown: </b>Northford, Connecticut<br />
+    </p>
+    
+    <h2 class="flip"> My Story </h2>
+    <div class="panel">
+        <p>
+            I have always had a passion for technology ever since my father brought home our very first IBM desktop. In no time, family and relatives would start to come to me for troubleshooting help and advice for their technology. From making a Wifi connection and figuring out why the printer won't work to recovering a machine riddled with viruses, I have always been the go-to person for these requests.
+        </p>
+        <p>
+            I am the kind of person who is bothered when something doesn't work the way it is supposed to. The mere fact that something wouldn't work would be the sole inspiration to get it to work. This soon translated from performing simple IT tasks to software debugging to software engineering. In addition to my desire to fix, I have a desire to create. There is something magical about being able to type into the computer and if you do so correctly, you get exactly what you want. That kind of power is not available anywhere else which is why I decided to persue technology.
+        </p>
+        <p>
+            I especially have a passion for the video game industry and aspire to eventually become a game designer. I pay attention to what a game expects from a user rather than just what a user expects from a game. I would like to have the time and resources to make some of the visions of games in my head turn into a reality.
+        </p>
+        <p>
+            In addition to playing games as a hobby, I have experience in implementing multiple casual games from scratch in my spare time while learning programming languages. I have experience developing games on all sorts of mediums ranging from FPGA's to the Unity engine. I hope to one day be able to focus my time and energy on making something with quality that I design, considering current trends and how to stick out from the competition. I know what the average player wants as well as what will sell. I constantly pay attention to and have genuine interest in what is trending. 
+        </p>
+    </div>
+    <h2 class="flip">Experience</h2>
+    <div class="panel">
+        <p>
+            Since I started computer engineering, I have over six years of software development experience from inside and outside of school, collectively.
+        </p>
+
+        <h4>Work Exposure:</h4>
+        <ul>
+            <li>
+                Infantry War Simulaion (IWARS): Performed development and bug fixing on the Infantry War Simulation software initiated by <a href="www.tseboston.com">Technology Solutions Experts</a>. This program utilized a C# back end with the C++-based Delta3D physics and 3D modeling engine. Implemented a target acquisition engine and performed
+                manual tests, unit tests and regression tests using NUnit.
+            </li>
+            <li>Infantry Casualty Estimation Methodology (ICEM): Contributed to software that would simulate the firing of artillery batteries and other munitions to estimate casualties based off of anthropomorphically accurate 3D models and other munition-based methodologies obtained through research and development.</li>
+            <li>TSE Innovations: Co-designed and solely developed the TSE Innovations website using the ASP.Net stack (MVC/HTTP/CSS/Javascript/Angular 2)</li>
+            <li>Database UI: Contributed to the developent and quality assurance of a confidential MySQL database UI. System ran on MVC-based ASP.NET with a C# back-end.</li>
+            <li>Inventorio: Participated in the implementation of a C#/Xamarin based mobile application that allows users to create an inventory of their stock. The projecct included development and deployment of a web application through Amazon Web Services. </li>
+            <li>Android Demo App: Sole contributor to the first demo app (native Android) for Inventorio which allowed users to scan QR codes, use speech-to-text and OCR image-to-text functionality.</li>
+            <li>IT Logging Service: Developed an internal tool for <a href="www.accare.com">American Customer Care</a> that used a purely back-end C# program to collect CSV files and to display the data as an easy-to-read PDF.</li>
+        </ul>
+
+        <h4>Projects:</h4>
+        <ul>
+            <li>
+                <a href="https://github.com/justincrerar/Coyote-Tracking-Interface">Coyote Tracking Interface:</a> Desktop Client developed for the University of Rhode Island's capstone project. This C# Forms application allowed users from <a href="www.theconservationagency.org">The Conservation Agency</a> to communicate with GPS modules attached to various coyotes around the Jamestown, Rhode Island area.
+                The tracking interface was designed with cost-effectiveness in mind. The system utilizes an unlimited SMS plan to send the GPS locations of several coyotes as SMS messages to an email inbox. Unread emails containing locations are then available to the client through a POP3 protocol, so that they are deleted from the remote server as they are pushed to the client.
+                The final product was awarded the final grade of an A.
+            </li>
+            <li>Lane Racer Video Game: Designed a crude lane racer video game using C# that emulated a car driving through traffic. Incoming cars on the road would approach at an increasingly faster rate, demonstrating difficulty as the game progresses. Also, a point system and high score was implemented.</li>
+            <li>Unity's Space Shooter: Walked through Unity's <a href="https://unity3d.com/learn/tutorials/projects/space-shooter-tutorial">Space Shooter Tutorial</a> to completion to develop an understanding of 3D video game development.</li>
+            <li><b>Personal Portfolio Website:</b> Designed and implemented this very website using ASP.NET HTTP/CSS/Javascript using bootstrap/JQuery and hosted it on GitHub, demonstrating understanding in web site design, development and source control.</li>
+            <li>War Card Game: Implemented card-shuffling algorithm to emulate a realistic version of the game. Outlined my understanding of Java and Linked Lists</li>
+            <li>Checkers: Implemented the board game using Java, 2D arrays, and abstract classes to demonstrate designing and developing complicated logic in the form of a video game</li>
+        </ul>
+
+    </div>
+    <h2 class="flip"> Links and Contact </h2>
+    <div class="panel">
+        <div>
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/justin-crerar" data-format="inline" data-related="false">
+            </script>
         </div>
-        <h2 class="flip"> Goals </h2>
-        <div class="panel">
-            <p>
-                I have always had a passion for technology ever since my father brought home our very first IBM desktop. In no time, family and relatives would start to come to me for troubleshooting help and advice for their technology. From making a Wifi connection and figuring out why the printer won't work to recovering a machine riddled with viruses, I have always been the go-to person for these requests.
-            </p>
-            <p>
-                I especially have a passion for the video game industry and aspire to eventually become a game designer. I pay attention to what a game expects from a user rather than just what a user expects from a game. I would like to have the time and resources to make some of the visions of games in my head turn into a reality.
-            </p>
-            <p>
-                In addition to playing games as a hobby, I have experience in implementing multiple casual games from scratch in my spare time while learning programming languages. I have experience developing games on all sorts of mediums ranging from FPGA's to the Unity engine. I hope to one day be able to focus my time and energy on making something with quality that I design, considering current trends and how to stick out from the competition. I know what the average player wants as well as what will sell. I constantly pay attention to and have genuine interest in what is trending. I would be an asset to any organization of people in the industry, big or small.
-            </p>
-        </div>
-        <h2 class="flip">Experience</h2>
-        <div class="panel">
-            <p>
-                Since I started computer engineering, I have over six years of software development experience from inside and outside of school, collectively.
-            </p>
-        </div>
-        <h2 class="flip"> Links and Contact </h2>
-        <div class="panel">
-            <div>
-                <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-                <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/justin-crerar" data-format="inline" data-related="false">
-                </script>
-            </div>
-            <div >
-                <p>JustinCrerar2017@gmail.com</p>
-            </div>
+        <div>
+            <a href="mailto:JustinCrerar2017@gmail.com">JustinCrerar2017@gmail.com</a>
         </div>
     </div>
 </body>

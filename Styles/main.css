@@ -16,6 +16,10 @@
     align-content: center;
 }
 
+p{
+    font-size:18px;
+}
+
 .panel, .flip {
     padding: 5px;
 }
@@ -55,4 +59,11 @@
     padding-left: 180px;
     text-align: left;
     word-spacing: -.2em;
+}
+#headshot {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height:200px;
 }
