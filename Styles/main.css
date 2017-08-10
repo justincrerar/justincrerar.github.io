@@ -1,9 +1,31 @@
 ﻿body {
 }
 
+#headshotDiv{
+    padding-top:10em;
+    padding-bottom:10em;
+    border-top:2px thick silver;
+    border-bottom: 2px thick silver;
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+h2.flip {
+    width: 80%;
+    align-self: center;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
 .center {
     margin: auto;
-    width: 90%;
+    width: 50%;
     border: 3px thin black;
     padding: 10px;
     font-family: Roboto;
@@ -21,49 +43,22 @@ p{
 }
 
 .panel, .flip {
-    padding: 5px;
+    padding: 20px;
 }
 
 .flip {
     text-align: center;
+    color:black;
     background-color: silver;
-    border: solid 1px silver;
     border-radius: 5px;
 }
 
 .panel {
-    padding: 15px;
+    padding-left: 30px;
     text-align: left;
     display: none;
-    background-color: #fff;   
+    background-color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.topbar {
-    position: fixed;
-    background: #322733;
-    color: white;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-    z-index: 1001;
-    line-height: 60px;
-}
-.topbar nav {
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 0;
-    font-family: 'roboto condensed';
-    text-transform: uppercase;
-    display: block;
-    padding-left: 180px;
-    text-align: center;
-    word-spacing: -.2em;
-}
-#headshot {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height:200px;
-}
